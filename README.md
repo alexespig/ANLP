@@ -7,7 +7,7 @@ You only need to run the demo.py by python demo.py in the console
 - Limitations: For some questions, the model may not have enough information to provide a complete answer. When only short context snippets are given, it's difficult for the model to generate robust responses.
 - Data quantity: Providing more data can improve answer accuracy. However, with a small k (i.e., fewer retrieved passages), the improvement remains limited because the model still sees only a small portion of the available information.
 - Model capability: A more advanced model could interpret the context more effectively. However, it may also rely more on its internal knowledge than on the provided input, which can lead to hallucinations.
-- 
+
 ### Example with normal input: 
 - Input: Which are the most common diseases in cats?
 - Observed results: the more context the more the model use only the information given and not knowledge from the model
